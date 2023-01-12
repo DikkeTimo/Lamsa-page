@@ -10,9 +10,10 @@
 }
 
 :root {
-  --background-color: #212e2f;
-  --background-color-two: #bd8870;
-  --text-color-ligth: #e1dbcd;
+  --background-color: #9ab9ac;
+  --background-color-two: #a87350;
+  --text-color-ligth: #ffffff;
+  --text-color-dark: #000000;
   --logo-color: #efbd50;
   --border-radius: 0.6rem;
 }
@@ -39,7 +40,7 @@ body {
 }
 
 nav ul {
-  background-color: #2c3d3e;
+  background-color: #8db0a2;
   border-radius: 0 0 0.6rem 0.6rem;
   display: flex;
   justify-content: space-around;
@@ -53,15 +54,25 @@ nav a {
   text-decoration-line: none;
 }
 
-main {
-  width: 100%;
-}
-
 .intro img {
   background-color: var(--background-color);
   width: 80%;
   margin-left: 10%;
   padding-top: 10px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+#creampot {
+  width: 25%;
+}
+
+#creamtube {
+  width: 25%;
 }
 
 .intro h2 {
@@ -83,6 +94,8 @@ main {
 }
 
 .story {
+  background-image: url(/assets/mountains.svg);
+  background-size: cover;
   background-color: #e1dbcd;
   border-radius: var(--border-radius);
   padding: 3rem;
@@ -91,7 +104,7 @@ main {
 
 .story p,
 .inspiration p {
-  color: black;
+  color: rgb(0, 0, 0);
   padding-top: 10%;
   max-width: 100%;
   margin: 0 auto;
