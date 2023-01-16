@@ -23,6 +23,7 @@ body {
   width: 100%;
   font-family: LobsterTwo-regular;
   font-size: 4vw;
+  margin: 0 auto;
 }
 
 /* 
@@ -33,11 +34,6 @@ body {
  |_|  |_|\__,_|_|_| |_|
                        
  */
-
-.home {
-  width: 100%;
-  margin: 0 auto;
-}
 
 nav ul {
   background-color: #8db0a2;
@@ -100,6 +96,13 @@ nav a {
   border-radius: var(--border-radius);
   padding: 3rem;
   margin: 1rem;
+  animation-name: translate;
+  animation-duration: 1s;
+}
+
+.story p {
+  animation-name: tekst;
+  animation-duration: 2s;
 }
 
 .story p,
@@ -121,4 +124,22 @@ nav a {
 .inspiration h1,
 .inspiration p {
   color: var(--text-color-ligth);
+}
+
+@keyframes translate {
+  from {
+    transform: translateX(-10%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes tekst {
+  from {
+    transform: translateX(-10%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
