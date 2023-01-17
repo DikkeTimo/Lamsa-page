@@ -100,11 +100,6 @@ nav a {
   animation-duration: 1s;
 }
 
-.story p {
-  animation-name: tekst;
-  animation-duration: 2s;
-}
-
 .story p,
 .inspiration p {
   color: rgb(0, 0, 0);
@@ -112,6 +107,8 @@ nav a {
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
+  animation-name: tekst;
+  animation-duration: 2s;
 }
 
 .inspiration {
@@ -119,11 +116,20 @@ nav a {
   border-radius: var(--border-radius);
   padding: 3rem;
   margin: 1rem;
+  animation-name: translate;
+  animation-duration: 1s;
 }
 
 .inspiration h1,
 .inspiration p {
   color: var(--text-color-ligth);
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
 }
 
 @keyframes translate {

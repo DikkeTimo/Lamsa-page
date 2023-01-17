@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Products</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
@@ -21,6 +21,25 @@
         <img src="assets/Logolamsa.svg" alt="logo lamsa" />
         <h2>Daily Multipurpose Cream</h2>
       </div>
+
+      <form>
+        <fieldset>
+          <legend>Contact</legend>
+          <label for="name">Name</label>
+          <input id="name" placeholder="First-name" required type="text" />
+
+          <label for="surname">Surname</label>
+          <input id="surname" placeholder="Last-name" required type="text" />
+
+          <label for="email">Email</label>
+          <input id="email" placeholder="Email" required type="email" />
+
+          <label for="question"></label>
+          <textarea name="vragen" id="questions" cols="30" rows="10"></textarea>
+
+          <input type="submit" value="Send" />
+        </fieldset>
+      </form>
     </main>
   </body>
 </html>
