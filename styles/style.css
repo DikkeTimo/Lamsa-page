@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "LobsterTwo-Regular";
   src: url("../Fonts/LobsterTwo-Regular.ttf");
@@ -54,7 +58,7 @@ nav a {
   background-color: var(--background-color);
   width: 80%;
   margin-left: 10%;
-  padding-top: 10px;
+  padding-top: 50px;
 }
 
 .pictures {
@@ -69,6 +73,12 @@ nav a {
 
 #creamtube {
   width: 25%;
+}
+
+.intro {
+  border: #76998a solid;
+  border-width: 0 5px 5px 5px;
+  border-radius: 5px;
 }
 
 .intro h2 {
@@ -95,7 +105,9 @@ nav a {
   background-color: #e1dbcd;
   border-radius: var(--border-radius);
   padding: 3rem;
-  margin: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
   animation-name: translate;
   animation-duration: 1s;
 }
@@ -115,7 +127,9 @@ nav a {
   background-color: var(--background-color-two);
   border-radius: var(--border-radius);
   padding: 3rem;
-  margin: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 150px;
   animation-name: translate;
   animation-duration: 1s;
 }
@@ -125,11 +139,35 @@ nav a {
   color: var(--text-color-ligth);
 }
 
+form {
+  margin-top: 100px;
+}
+
 fieldset {
+  border: none;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 50%;
+  width: 80%;
+  letter-spacing: 1.6;
+  padding-bottom: 5rem;
+  transform: translateY(2rem);
+}
+
+legend {
+  font-size: 25px;
+}
+
+input {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+}
+
+textarea {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
 }
 
 @keyframes translate {
@@ -158,5 +196,16 @@ fieldset {
   .intro {
     max-width: 40%;
     margin: 0 auto;
+  }
+
+  nav {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro {
+    border: none;
   }
 }

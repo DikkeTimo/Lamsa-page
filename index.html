@@ -11,9 +11,9 @@
     <nav>
       <ul>
         <li><a href="index.html">Lamsa</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#story">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#form">Contact</a></li>
       </ul>
     </nav>
     <main>
@@ -25,6 +25,7 @@
           <img id="creamtube" src="./assets/cream.png" alt="picture cream pot" />
         </div>
         <div class="inspiration">
+          <a name="inspiration"></a>
           <h1>Inspiration</h1>
           <p>
             Inspired by old recipes from the Syrian Golan Mountains, where people of the
@@ -32,6 +33,44 @@
             maintain a youthful and clear complexion.
           </p>
         </div>
+        <div class="story">
+          <a name="story"></a>
+          <h1>Our Story</h1>
+          <p>
+            We are two Syrian students in pursuit of our dream to bring authentic handmade
+            products from our homeland to the Dutch beauty market. With Lamsa cosmetics we
+            aim to recreate simple yet effective recipes from the past. We combine the
+            best raw oils, extracts, and butters that will treat, heal and promote
+            healthier skin. We stand for transparency, sustainability, and clean skincare.
+          </p>
+        </div>
+
+        <form>
+          <a name="form"></a>
+          <fieldset>
+            <legend>Contact</legend>
+            <label for="name">Name</label>
+            <input id="name" placeholder="First-name" required type="text" />
+
+            <label for="surname">Surname</label>
+            <input id="surname" placeholder="Last-name" required type="text" />
+
+            <label for="email">Email</label>
+            <input id="email" placeholder="Email" required type="email" />
+
+            <label for="question"></label>
+            <textarea
+              placeholder="Stel hier je vraag"
+              name="vragen"
+              id="questions"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+
+            <input type="submit" value="Send" />
+          </fieldset>
+        </form>
       </div>
     </main>
   </body>
