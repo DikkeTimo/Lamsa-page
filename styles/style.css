@@ -68,7 +68,7 @@ nav a {
 .intro img {
   background-color: var(--background-color-div);
   padding-top: 50px;
-  background-image: url(/assets/lotionpicture.jpeg);
+  background-image: url(/assets/lotionpicture.jpg);
   background-size: cover;
   background-position: center;
   border-radius: var(--border-radius);
@@ -202,12 +202,12 @@ textarea {
   }
 
   .intro {
-    max-width: 40%;
+    max-width: 50%;
     margin: 0 auto;
   }
 
   nav {
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
   }
 }
