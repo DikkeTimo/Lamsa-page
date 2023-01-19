@@ -67,11 +67,11 @@ nav a {
 
 .intro img {
   background-color: var(--background-color-div);
-  padding-top: 50px;
   background-image: url(/assets/lotionpicture.jpg);
   background-size: cover;
   background-position: center;
   border-radius: var(--border-radius);
+  padding: 1rem;
 }
 
 #creampot {
@@ -105,6 +105,34 @@ nav a {
 .intro h1 {
   width: 100%;
   text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 20vh;
+  margin-top: 5rem;
+}
+
+.tube {
+  background-image: url(/assets/lotionpot.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--border-radius);
+  background-color: #5e0d0d;
+  width: 80%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.tube h3 {
+  color: white;
+}
+
+.tube:hover {
+  background-color: #5e0d0d;
+  opacity: 0.8;
 }
 
 .story {
@@ -178,6 +206,20 @@ textarea {
   border-radius: 0.2rem;
 }
 
+.togglethis {
+  /* background-image: url(/assets/);
+  background-size: cover;
+  background-position: center; */
+  background-color: #000000;
+  border-radius: var(--border-radius);
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  z-index: 5;
+  opacity: 0.9;
+}
+
 @keyframes translate {
   from {
     transform: translateX(-10%);
@@ -207,6 +249,11 @@ textarea {
   }
 
   nav {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .togglethis {
     width: 50%;
     margin: 0 auto;
   }
