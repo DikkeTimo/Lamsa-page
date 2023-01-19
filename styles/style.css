@@ -16,6 +16,7 @@ html {
 :root {
   --background-color: #9ab9ac;
   --background-color-two: #a87350;
+  --background-color-div: #8bac9e;
   --text-color-ligth: #ffffff;
   --text-color-dark: #000000;
   --logo-color: #efbd50;
@@ -39,6 +40,12 @@ body {
                        
  */
 
+nav {
+  border: var(--text-color-ligth) solid;
+  border-width: 1px;
+  border-radius: 0 0 0.6rem 0.6rem;
+}
+
 nav ul {
   background-color: #8db0a2;
   border-radius: 0 0 0.6rem 0.6rem;
@@ -49,22 +56,22 @@ nav ul {
   height: 15vh;
 }
 
+nav a:hover {
+  color: #d1cfcf;
+}
+
 nav a {
   color: var(--text-color-ligth);
   text-decoration-line: none;
 }
 
 .intro img {
-  background-color: var(--background-color);
-  width: 80%;
-  margin-left: 10%;
+  background-color: var(--background-color-div);
   padding-top: 50px;
-}
-
-.pictures {
-  display: flex;
-  justify-content: space-around;
-  margin: 2rem;
+  background-image: url(/assets/lotionpicture.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--border-radius);
 }
 
 #creampot {
@@ -76,10 +83,10 @@ nav a {
 }
 
 .intro {
-  border: #76998a solid;
-  border-width: 0 5px 5px 5px;
+  background-color: var(--background-color-div);
   border-radius: 5px;
   scroll-snap-type: y mandatory;
+  padding-bottom: 2rem;
 }
 
 .intro h2 {
@@ -153,8 +160,6 @@ fieldset {
   margin: 0 auto;
   width: 80%;
   letter-spacing: 1.6;
-  padding-bottom: 0.5rem;
-  transform: translateY(2.5rem);
 }
 
 legend {
