@@ -207,9 +207,6 @@ textarea {
 }
 
 .togglethis {
-  /* background-image: url(/assets/);
-  background-size: cover;
-  background-position: center; */
   background-color: #000000;
   border-radius: var(--border-radius);
   position: absolute;
