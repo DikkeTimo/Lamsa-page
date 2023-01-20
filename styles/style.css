@@ -67,7 +67,7 @@ nav a {
 
 .intro img {
   background-color: var(--background-color-div);
-  background-image: url(assets/lotionpicture.jpg);
+  background-image: "assets/lotionpicture.jpg";
   background-size: cover;
   background-position: center;
   border-radius: var(--border-radius);
@@ -116,7 +116,7 @@ nav a {
 }
 
 .tube {
-  background-image: url(assets/lotionpot.png);
+  background-image: "assets/lotionpot.png";
   background-size: cover;
   background-position: center;
   border-radius: var(--border-radius);
@@ -136,7 +136,7 @@ nav a {
 }
 
 .story {
-  background-image: url(assets/mountains.svg);
+  background-image: "assets/mountains.svg";
   background-size: cover;
   background-color: #e1dbcd;
   border-radius: var(--border-radius);
