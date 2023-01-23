@@ -73,7 +73,7 @@ nav a {
   background-position: center;
   border-radius: var(--border-radius);
   padding: 1rem;
-  max-width: 100%;
+  width: 100%;
 }
 
 #creampot {
