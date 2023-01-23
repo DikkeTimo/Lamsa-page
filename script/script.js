@@ -1,9 +1,10 @@
 let products = document.querySelector(".products");
-let tube = document.querySelector(".tube");
+let popUpContainer = document.querySelector(".pop-up-container");
+let intro = document.querySelector("intro img");
+let mand = document.getElementById("#toggleMand");
 
 products.addEventListener("click", toggle);
 
 function toggle() {
-  products.classList.add("togglethis");
-  tube.classList.remove("tube");
+  popUpContainer.classList.toggle("togglethis");
 }

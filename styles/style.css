@@ -9,14 +9,15 @@ html {
 }
 
 @font-face {
-  font-family: "LobsterTwo-Regular";
-  src: url("../Fonts/LobsterTwo-Regular.ttf");
+  font-family: "LobsterTwo-Italic";
+  src: url("../Fonts/LobsterTwo-Italic.ttf");
 }
 
 :root {
   --background-color: #9ab9ac;
   --background-color-two: #a87350;
-  --background-color-div: #8bac9e;
+  /* --background-color-div: #8bac9e; */
+  --background-color-div: #7b96ab;
   --text-color-ligth: #ffffff;
   --text-color-dark: #000000;
   --logo-color: #efbd50;
@@ -47,7 +48,7 @@ nav {
 }
 
 nav ul {
-  background-color: #8db0a2;
+  background-color: var(--background-color-div);
   border-radius: 0 0 0.6rem 0.6rem;
   display: flex;
   justify-content: space-around;
@@ -65,7 +66,7 @@ nav a {
   text-decoration-line: none;
 }
 
-.intro img {
+.logoimg img {
   background-color: var(--background-color-div);
   background-image: url("../assets/lotionpicture.jpg");
   background-size: cover;
@@ -124,6 +125,8 @@ nav a {
   width: 80%;
   text-align: center;
   padding: 1rem;
+  position: relative;
+  z-index: 1;
 }
 
 .tube h3 {
@@ -177,6 +180,8 @@ nav a {
 
 form {
   margin-top: 100px;
+  width: 80%;
+  margin-left: 10%;
 }
 
 fieldset {
@@ -206,15 +211,45 @@ textarea {
   border-radius: 0.2rem;
 }
 
-.togglethis {
+.pop-up-container {
+  visibility: hidden;
   background-color: #000000;
   border-radius: var(--border-radius);
   position: absolute;
-  width: 90%;
-  height: 100%;
-  margin-left: 5%;
-  z-index: 5;
-  opacity: 0.9;
+  width: 80%;
+  height: 110%;
+  margin-top: 1rem;
+  margin-left: 10%;
+  z-index: 10;
+  background-image: url(../assets/Mountains-1412683.svg);
+  background-size: cover;
+}
+
+#toggleMand {
+  animation-name: product;
+  animation-duration: 2s;
+}
+
+.pop-up-container h1 {
+  margin-top: 1rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.pop-up-container p {
+  color: #fffdfd;
+  width: 250px;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 4rem;
+  border: 0.5px solid;
+  padding: 2rem;
+}
+
+.togglethis {
+  visibility: visible;
+  animation-name: product;
+  animation-duration: 2s;
 }
 
 @keyframes translate {
@@ -229,6 +264,15 @@ textarea {
 @keyframes tekst {
   from {
     transform: translateX(-10%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes product {
+  from {
+    transform: translateX(-100%);
   }
   to {
     transform: translateX(0%);
