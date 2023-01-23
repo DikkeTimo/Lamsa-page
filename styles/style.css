@@ -73,6 +73,7 @@ nav a {
   background-position: center;
   border-radius: var(--border-radius);
   padding: 1rem;
+  max-width: 100%;
 }
 
 #creampot {
@@ -117,7 +118,7 @@ nav a {
 }
 
 .tube {
-  background-image: url("../assets/lotionpot.png");
+  background-image: url("../assets/Lamsaproducts.png");
   background-size: cover;
   background-position: center;
   border-radius: var(--border-radius);
