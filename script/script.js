@@ -7,7 +7,12 @@ function toggle() {
   popUpContainer.classList.toggle("togglethis");
 }
 
-// gsap.from(".inspiration", {
-//   scrollTrigger: ".story", // start the animation when ".box" enters the viewport (once)
-//   x: -100,
-// });
+let story = document.querySelector(".story");
+let button = document.querySelector("#buttonmore");
+let more = document.querySelector("moretext");
+
+button.addEventListener("click", togglethis);
+
+function togglethis() {
+  document.getElementById("moretext").style.display = "block";
+}

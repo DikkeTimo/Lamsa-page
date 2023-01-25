@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: #7b96abcb;
   width: 100%;
   font-family: LobsterTwo-regular;
   font-size: 4vw;
@@ -72,8 +72,10 @@ nav a {
   background-size: cover;
   background-position: center;
   border-radius: var(--border-radius);
-  padding: 1rem;
-  width: 100%;
+  padding: 1.5rem;
+  margin-left: 5%;
+  margin-top: 0.5rem;
+  width: 90%;
 }
 
 #creampot {
@@ -150,6 +152,16 @@ nav a {
   margin-top: 100px;
   animation-name: translate;
   animation-duration: 1s;
+}
+
+.story #buttonmore {
+  width: 20%;
+  margin-left: 40%;
+  cursor: pointer;
+}
+
+.story #moretext {
+  display: none;
 }
 
 .story p,
@@ -318,8 +330,21 @@ textarea {
   }
 
   .pop-up-container {
-    width: 40%;
-    margin-left: 5%;
+    width: 30%;
+    margin-left: 10%;
+  }
+
+  .story {
+    width: 60%;
+  }
+
+  .inspiration {
+    width: 60%;
+  }
+
+  .products {
+    width: 60%;
+    margin: 0 auto;
   }
 }
 
