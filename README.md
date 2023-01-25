@@ -12,7 +12,8 @@ Een bedrijf dat lotions verkoopt met 100% natuurlijke ingredienten.
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
-<img width='50%' src='assets/lamsapage.png'>
+<img width='40%' src='assets/lamsapage.png'>
+<img width='40%' src='assets/productspage.png'>
 
 ## Kenmerken
 
