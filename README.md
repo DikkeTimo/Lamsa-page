@@ -23,12 +23,14 @@ De pagina is gemaakt met html, css en javascript.
 
 Gebruikte technieken
 
-<h2>Tools</h2>
+<h4>Tools</h4>
 
 <ul>
   <li>VS Code</li>
   <li>Pen & papier</li>
 </ul>
+
+<h4>Gebruikte technieken</h4>
 
 <ul>
   <li>HTML</li>
