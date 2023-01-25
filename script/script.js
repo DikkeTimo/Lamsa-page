@@ -9,10 +9,10 @@ function toggle() {
 
 let story = document.querySelector(".story");
 let button = document.querySelector("#buttonmore");
-let more = document.querySelector("moretext");
+let more = document.querySelector(".moretext");
 
 button.addEventListener("click", togglethis);
 
 function togglethis() {
-  document.getElementById("moretext").style.display = "block";
+  more.classList.toggle("moretext-toggle");
 }

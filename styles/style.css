@@ -68,14 +68,13 @@ nav a {
 
 .logoimg img {
   background-color: var(--background-color-div);
-  background-image: url("../assets/lotionpicture.jpg");
   background-size: cover;
   background-position: center;
   border-radius: var(--border-radius);
   padding: 1.5rem;
-  margin-left: 5%;
+  margin-left: 10%;
   margin-top: 0.5rem;
-  width: 90%;
+  width: 80%;
 }
 
 #creampot {
@@ -154,14 +153,28 @@ nav a {
   animation-duration: 1s;
 }
 
-.story #buttonmore {
-  width: 20%;
-  margin-left: 40%;
-  cursor: pointer;
+.moretext {
+  display: none;
+  text-align: left;
 }
 
-.story #moretext {
-  display: none;
+.moretext-toggle {
+  display: block;
+}
+
+#buttonmore {
+  background-color: #e1dbcd;
+  margin-top: 2.5rem;
+  margin-left: 50%;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.2rem;
+  scale: 2;
+}
+
+#buttonmore:hover {
+  scale: 2.05;
 }
 
 .story p,
