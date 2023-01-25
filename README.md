@@ -15,7 +15,7 @@ Een bedrijf dat lotions verkoopt met 100% natuurlijke ingredienten.
 <img width='40%' src='assets/lamsapage.png'>
 <img width='40%' src='assets/productspage.png'>
 
-## Kenmerken
+⚡ Kenmerken
 
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 
