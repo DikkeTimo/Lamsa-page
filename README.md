@@ -21,6 +21,14 @@ Een bedrijf dat lotions verkoopt met 100% natuurlijke ingredienten.
 
 De pagina is gemaakt met html, css en javascript.
 
+Gebruikte technieken
+
+<li>
+  <ul>HTML</ul>
+  <ul>CSS</ul>
+  <ul>Javascript</ul>
+</li>
+
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
