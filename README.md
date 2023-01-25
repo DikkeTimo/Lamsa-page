@@ -23,11 +23,11 @@ De pagina is gemaakt met html, css en javascript.
 
 Gebruikte technieken
 
-<li>
-  <ul>HTML</ul>
-  <ul>CSS</ul>
-  <ul>Javascript</ul>
-</li>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+</ul>
 
 ## Licentie
 
