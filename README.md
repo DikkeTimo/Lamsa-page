@@ -33,9 +33,9 @@ Gebruikte technieken
 <h4>Gebruikte technieken</h4>
 
 <ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>Javascript</li>
+  <li>📟 HTML</li>
+  <li>⌚ CSS</li>
+  <li>📲 Javascript</li>
 </ul>
 
 ## Licentie
