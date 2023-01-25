@@ -113,7 +113,7 @@ nav a {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: 20vh;
+  height: 30vh;
   margin-top: 5rem;
 }
 
@@ -123,7 +123,7 @@ nav a {
   background-position: center;
   border-radius: var(--border-radius);
   background-color: #5e0d0d;
-  width: 80%;
+  width: 100%;
   text-align: center;
   padding: 1rem;
   position: relative;
@@ -145,7 +145,7 @@ nav a {
   background-color: #e1dbcd;
   border-radius: var(--border-radius);
   padding: 3rem;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   margin-top: 100px;
   animation-name: translate;
@@ -167,7 +167,7 @@ nav a {
   background-color: var(--background-color-two);
   border-radius: var(--border-radius);
   padding: 3rem;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   margin-top: 150px;
   animation-name: translate;
@@ -217,10 +217,9 @@ textarea {
   background-color: #000000;
   border-radius: var(--border-radius);
   position: absolute;
-  width: 80%;
+  width: 100%;
   height: 110%;
   margin-top: 1rem;
-  margin-left: 10%;
   z-index: 10;
   background-image: url(../assets/Mountains-1412683.svg);
   background-size: cover;
@@ -239,8 +238,9 @@ textarea {
 
 .pop-up-container p {
   color: #fffdfd;
-  width: 250px;
+  width: 80%;
   display: flex;
+  justify-content: center;
   margin-left: 10%;
   margin-top: 4rem;
   border: 0.5px solid;
@@ -252,6 +252,13 @@ textarea {
   animation-name: product;
   animation-duration: 2s;
 }
+
+/* _  __           __                               
+| |/ /___ _   _ / _|_ __ __ _ _ __ ___   ___  ___ 
+| ' // _ \ | | | |_| '__/ _` | '_ ` _ \ / _ \/ __|
+| . \  __/ |_| |  _| | | (_| | | | | | |  __/\__ \
+|_|\_\___|\__, |_| |_|  \__,_|_| |_| |_|\___||___/
+          |___/                                    */
 
 @keyframes translate {
   from {
@@ -280,6 +287,16 @@ textarea {
   }
 }
 
+/* 
+
+  ____                 _                _       _   
+ | __ ) _ __ ___  __ _| | ___ __   ___ (_)_ __ | |_ 
+ |  _ \| '__/ _ \/ _` | |/ / '_ \ / _ \| | '_ \| __|
+ | |_) | | |  __/ (_| |   <| |_) | (_) | | | | | |_ 
+ |____/|_|  \___|\__,_|_|\_\ .__/ \___/|_|_| |_|\__|
+                           |_|                      
+ */
+
 @media (min-width: 500px) {
   body {
     font-size: 16px;
@@ -298,6 +315,11 @@ textarea {
   .togglethis {
     width: 50%;
     margin: 0 auto;
+  }
+
+  .pop-up-container {
+    width: 40%;
+    margin-left: 5%;
   }
 }
 
