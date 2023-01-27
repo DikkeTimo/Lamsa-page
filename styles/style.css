@@ -17,7 +17,8 @@ html {
   --background-color: #9ab9ac;
   --background-color-two: #a87350;
   /* --background-color-div: #8bac9e; */
-  --background-color-div: #7b96ab;
+  /* --background-color-div: #7b96ab; */
+  --background-color-div: #efeedd;
   --text-color-ligth: #ffffff;
   --text-color-dark: #000000;
   --logo-color: #efbd50;
@@ -42,7 +43,7 @@ body {
  */
 
 nav {
-  border: var(--text-color-ligth) solid;
+  border: var(--text-color-dark) solid;
   border-width: 1px;
   border-radius: 0 0 0.6rem 0.6rem;
 }
@@ -62,7 +63,7 @@ nav a:hover {
 }
 
 nav a {
-  color: var(--text-color-ligth);
+  color: var(--text-color-dark);
   text-decoration-line: none;
 }
 
@@ -93,7 +94,7 @@ nav a {
 }
 
 .intro h2 {
-  color: var(--text-color-ligth);
+  color: #ccb56e;
   margin: 0 auto;
   text-align: center;
   margin: 1rem;
@@ -156,6 +157,11 @@ nav a {
 .moretext {
   display: none;
   text-align: left;
+}
+
+.moretext p {
+  display: flex;
+  justify-content: left;
 }
 
 .moretext-toggle {
@@ -328,12 +334,12 @@ textarea {
   }
 
   .intro {
-    max-width: 50%;
+    max-width: 100%;
     margin: 0 auto;
   }
 
   nav {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -343,8 +349,8 @@ textarea {
   }
 
   .pop-up-container {
-    width: 30%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 20%;
   }
 
   .story {
