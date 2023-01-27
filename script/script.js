@@ -15,4 +15,5 @@ button.addEventListener("click", togglethis);
 
 function togglethis() {
   more.classList.toggle("moretext-toggle");
+  story.style.backgroundImage = "none";
 }
